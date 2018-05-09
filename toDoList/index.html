@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>To-Do List</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/main.js" async></script>
+    </head>
+
+    <body class ='globalBody'>
+        <div class="heading">To do list</div>
+        <div class = 'toDoList'>
+            <div class = 'toDoList__editPanel'>
+                <input type="text" id="inputTxt" class = 'toDoList__inputTask' placeholder="Ввести дело">
+                <button id="addListButton" class="toDoList__button toDoList__btnAddList">добавить</button>
+                <button id="removeListButton" class="toDoList__button toDoList__btnRemoveList">очистить</button>
+            </div>
+            <ul id = 'ulList' class = 'toDoList__ulListTasks'></ul>
+        </div>
+    </body>
+</html>

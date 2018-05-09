@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'KazmannSans';
+    src: url('../fonts/KazmannSans/KazmannSans.eot');
+    src: url('../fonts/KazmannSans/KazmannSans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/KazmannSans/KazmannSans.woff2') format('woff2'),
+    url('../fonts/KazmannSans/KazmannSans.woff') format('woff'),
+    url('../fonts/KazmannSans/KazmannSans.ttf') format('truetype'),
+    url('../fonts/KazmannSans/KazmannSans.svg#big_johnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo{
+    text-transform: uppercase;
+    height: 50px;
+    width: 150px;
+    margin: auto;
+    background: #F91810;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: linear-gradient(to right, #F91810, #F90869);
+    font-family: KazmannSans, Arial, sans-serif;
+    font-size: 35px;
+}
